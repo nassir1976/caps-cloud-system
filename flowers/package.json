@@ -10,8 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws": "0.0.3-2",
     "aws-sdk": "^2.892.0",
+    "configure": "0.0.1",
+    "dotenv": "^8.2.0",
     "faker": "^5.5.3",
-    "sqs-consumer": "^5.5.0"
+    "sqs-consumer": "^5.5.0",
+    "uh": "0.0.12",
+    "uuid": "^8.3.2"
   }
 }
