@@ -48,7 +48,7 @@
     - Repeat until the queue is empty
 
 
-
+![WhiteBoard](./assets/UML.jpg)
 
 
 *********NOTE FROM JOHN**********
@@ -62,3 +62,4 @@ When the driver delivers, they publish to the delivered queue.
    - Vendors should be a consumer of this queue so they can “see” when packages are delivered even if they go offline.
 
 So, use a combination of all the things. Your .js files will be sending and receiving messages as before,  but using the AWS services and connector code instead of socket.io and a homegrown hub.js
+
