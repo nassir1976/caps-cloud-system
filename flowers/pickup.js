@@ -17,7 +17,7 @@ const topic = 'arn:aws:sns:us-west-2:114421735820:pickup' // pick-up is the topi
 
 class Order{ 
   constructor(){
-  this.storeName ='acme-widget'
+  this.storeName ='1-206-flower'
   this.orderId = faker.address.zipCode(),
   this.name = faker.name.findName(),
   this.address= `${faker.address.streetAddress()}, ${faker.address.city()}, ${faker.address.state()} ${faker.address.zipCode()}`,

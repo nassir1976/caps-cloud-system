@@ -15,9 +15,10 @@
     "configure": "0.0.1",
     "dotenv": "^8.2.0",
     "faker": "^5.5.3",
-    "producer": "^0.1.1",
+   
     "sqs": "^2.0.2",
     "sqs-consumer": "^5.5.0",
+    "sqs-producer": "^2.1.0",
     "uh": "0.0.12",
     "uuid": "^8.3.2"
   }

@@ -4,7 +4,7 @@
 const { Consumer } = require('sqs-consumer');
 
 const app = Consumer.create({
-  queueUrl: `https://sqs.us-west-2.amazonaws.com/114421735820/flower`,
+  queueUrl: `https://sqs.us-west-2.amazonaws.com/114421735820/flower`|| `https://sqs.us-west-2.amazonaws.com/114421735820/widget-queue`,
   handleMessage: handler
 });
 
