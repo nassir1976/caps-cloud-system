@@ -13,10 +13,6 @@ AWS.config.update({
   region: process.env.REGION,
 });
 
-
-
-  
-
 const topic = 'arn:aws:sns:us-west-2:114421735820:pickup' // pick-up is the topic
 
 class Order{ 
