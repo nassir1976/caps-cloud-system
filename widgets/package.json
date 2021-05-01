@@ -14,6 +14,7 @@
     "aws-sdk": "^2.892.0",
     "configure": "0.0.1",
     "faker": "^5.5.3",
-    "sqs-consumer": "^5.5.0"
+    "sqs-consumer": "^5.5.0",
+    "sqs-producer": "^2.1.0"
   }
 }

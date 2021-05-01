@@ -21,7 +21,7 @@ class Order{
   this.storeName ='1-206-flower'
   this.orderId = faker.address.zipCode(),
   this.name = faker.name.findName(),
-  // this.address= `${faker.address.streetAddress()}, ${faker.address.city()}, ${faker.address.state()} ${faker.address.zipCode()}`,
+   this.address= `${faker.address.streetAddress()}, ${faker.address.city()}, ${faker.address.state()} ${faker.address.zipCode()}`,
   this.vendorID= 'https://sqs.us-west-2.amazonaws.com/114421735820/flower'
   }
 }
